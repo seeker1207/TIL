@@ -84,9 +84,11 @@ $ git push origin master
 - `![]()` 을 작성하고 `()`  안에 이미지 주소를 입력합니다.  `[]`  안에는 이미지 파일의 이름을 작성합니다.
 - 로컬에 이미지파일을 저장한 경우 절대 경로가 아닌 상대 경로를 사용하여 이미지를 저장합니다. 
 
-<img src="https://miro.medium.com/max/1200/1*BCZkmZR1_YzDZy22Vn4uUw.png" alt="https://miro.medium.com/max/1200/1*BCZkmZR1_YzDZy22Vn4uUw.png" style="zoom: 50%;" />
+<img src="https://miro.medium.com/max/1200/1*BCZkmZR1_YzDZy22Vn4uUw.png" alt="https://miro.medium.com/max/1200/1*BCZkmZR1_YzDZy22Vn4uUw.png" style="width: 50%;" />
 
-![](https://www.somagnews.com/wp-content/uploads/2020/04/75-e1586981465263.png)
+<img src="https://www.somagnews.com/wp-content/uploads/2020/04/75-e1586981465263.png" alt="rgegr" style="width:50%;" />
+
+
 
 
 
