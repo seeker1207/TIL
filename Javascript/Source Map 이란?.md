@@ -39,3 +39,4 @@ https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/
 - names는 mappings에서 사용할 심볼 이름이다.
 - mappings는 인코딩된 매핑 데이터의 문자열이다.
 
+https://velog.io/@seeker1207/SourceMap%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8Cwith-webPack-devtool
