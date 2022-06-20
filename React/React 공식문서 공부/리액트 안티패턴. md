@@ -1,0 +1,29 @@
+2. 리액트의 안티패턴
+
+   - 종속성 배열이 없는 훅
+
+     리액트에서 서로 다른 코드 조각들은 종속성에 의해 서로 연결된다. 그렇기 때문에 종속성이 없는 코드를 리액트로 작성하면 버그가 발생할 확률이 높습니다.
+
+   - 컴포지션 위에 컴포넌트 배치
+
+     ![img](https://miro.medium.com/max/1400/0*Mt4NT_k231SMWcSg.png)
+
+​			컴포지션 배치의경우 디버깅을 위한 복잡도가 `O(1)`이 되지만 수직적으로 중첩이 되어있다면 child3 까지의 모든 자식을 확인해야하므로 디버깅의 복잡도가 높아질 수 있습니다.
+
+   -  초기 상태를 계산된 값으로  설정하는 것
+
+    ```tsx
+      const [length] = useState<number>(
+        props.article.text.length + props.article.title.length
+      ); 
+    ```
+
+    useMemo로 종속성을 설정하여 안티패턴을 피할 수 있습니다.
+
+    ```tsx
+      const length = useMemo<number>(
+        () => props.article.text.length + props.article.title.length,
+        [props]
+      );
+    ```
+
